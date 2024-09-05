@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #1e1c1c;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    color: #fdfdfd;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    color: #f2e9e9;
+    margin: 20px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.feature-item {
+    background-color: #1e1c1c;
+    padding: 20px;
+    border: 1px solid #1e1c1c;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #f9f2f2;
+}
+
+.tools-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.tools-section h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.tools-section p {
+    color: #7d7373;
+    margin: 20px 0 50px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.tool-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+}
+
+.tool-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.tool-item p {
+    color: #666;
+    margin-top: 10px;
+}
